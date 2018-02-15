@@ -5,10 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
 gem 'rails', '~> 5.1.4'
 gem 'sqlite3'
 gem 'puma', '~> 3.7'
+gem 'seed_dump', '3.2.4'
 
 group :development, :test do
   gem 'factory_bot_rails'
