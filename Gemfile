@@ -9,6 +9,8 @@ gem 'rails', '~> 5.1.4'
 gem 'sqlite3'
 gem 'puma', '~> 3.7'
 gem 'seed_dump', '3.2.4'
+gem 'loofah', '2.2.2'
+gem 'rails-html-sanitizer', '1.0.4'
 
 group :development, :test do
   gem 'factory_bot_rails'
